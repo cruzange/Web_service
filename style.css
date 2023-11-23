@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(13, 54, 121);
+}
+.columnas {
+   color: white;
+}
+.titulo{
+color: rgb(17, 171, 209)
+}
+h2{
+   color: red;
+}
+
+/* Estilo para centrar la tabla y hacerla más grande */
+table {
+   margin: 0 auto;
+   width: 80%;
+   border-collapse: collapse;
+  
+}
+
+th, td {
+   padding: 10px;
+   border: 1px solid #ccc;
+   text-align: center;
+}
+
+th {
+   background-color: #000000;
+}
+.colorD{
+   color: white;
+}
+
+.Agregar1 {
+   background-color: #4CAF50; 
+   color: white; 
+   padding: 10px 20px; 
+   font-size: 16px; 
+   border: none; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   text-decoration: none; 
+   -ms-flex-align: start;
+}
+
+
+.Agregar1:hover {
+   background-color: #45a049;
+}
+.Actualizar1 {
+   background-color: #1dade6; 
+   color: white; 
+   padding: 10px 20px; 
+   font-size: 16px; 
+   border: none; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   text-decoration: none; 
+   -ms-flex-align: start;
+}
+.Actualizar1:hover {
+   background-color: #2c94bd;
+}
+.Eliminar1 {
+   background-color: #e61d1d; 
+   color: white; 
+   padding: 10px 20px; 
+   font-size: 16px; 
+   border: none; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   text-decoration: none; 
+   -ms-flex-align: start;
+}
+.Eliminar1:hover {
+   background-color: #a61a1a;
+}
+.Botonesf{
+   text-align: center;
+}
+.agregar {
+   background-color: #4CAF50;
+   color: white;
+   padding: 5px 10px; 
+   font-size: 16px; 
+   border: none; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   text-decoration: none; 
+}
+.formulario {
+   display: flex;
+   flex-direction: column;
+   align-items: center; /* Opcional: centra los elementos horizontalmente */
+}
+.letra{
+   color: rgb(17, 171, 209)
+}
+.actualizar{
+   color: white; 
+   padding: 10px 20px; 
+   font-size: 16px; 
+   border: none; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   text-decoration: none; 
+   -ms-flex-align: start;
+}
